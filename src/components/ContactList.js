@@ -7,7 +7,10 @@ export default function ContactList(props){
 return(
     <>
     {props.contacts.map(contact =>(
-        <ContactCard contact={contact} />
+        <ContactCard contact={contact} 
+          key={contact.id}  
+          deleteContact={props.deleteContact}
+        />
 ))}
 </>
 
