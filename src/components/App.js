@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import ContactList from "./ContactList";
 import AddContact from "./AddContact";
+import ContactDetail from "./ContactDetails";
 
 function App() {
   const [contacts, setContacts] = useState([]);
@@ -46,6 +47,7 @@ function App() {
             }
           />
           <Route path="/add" element={<AddContact onAdd={addContact} />} />
+          <Route path="/contact/:id" element={<ContactDetail />} />
         </Routes>
         {/* <AddContact onAdd = {addContact}/>
       <ContactList contacts={contacts} deleteContact={deleteContact}/> */}
