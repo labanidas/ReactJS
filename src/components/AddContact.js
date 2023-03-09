@@ -1,4 +1,7 @@
 import React,{useState} from 'react';
+import {Link, useNavigate} from "react-router-dom";
+// import {useHistory} from 'react-router-dom';
+
 
 export default function AddContact(props){
 
@@ -16,19 +19,25 @@ export default function AddContact(props){
             }
         })
     }
-
-    function formSubmit(e){
+    const navigate = useNavigate();
+    const formSubmit = (e)=>{
+        
         props.onAdd(contact);
         setContact({
             name:"",
             email:""
         })
         e.preventDefault();
+        navigate("/");
     }
+    
 
     return (
     <div className='ui main'>
     <h2>Add Contact</h2>
+    <Link to='/'>
+      <button className='ui button blue right'>Contact List</button>
+    </Link>
     <form className='ui form' onSubmit={formSubmit}>
         <div className='field'>
             <label>Name</label>

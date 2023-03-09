@@ -35,7 +35,7 @@ function App() {
   }, [contacts]);
 
   return (
-    <div className="ui container">
+    <div className="ui container main">
       <Router>
         <Header />
         <Routes>
