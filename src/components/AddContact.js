@@ -20,7 +20,7 @@ export default function AddContact(props){
         })
     }
     const navigate = useNavigate();
-    const formSubmit = (e)=>{
+    function formSubmit(e){
         
         props.onAdd(contact);
         setContact({
