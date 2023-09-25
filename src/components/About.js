@@ -9,12 +9,12 @@ export default function About() {
             Hi, I'm Labani Das.
           </h1>
           {/* <br className="hidden lg:inline-block" /> */}
-           <h4 className="text-white mb-4 text-1xl sm:text-2xl">A Full-Stack Developer</h4> 
+          <h4 className="text-white mb-4 text-1xl sm:text-2xl">A Full-Stack Developer</h4>
           <p className="mb-8 leading-relaxed">
-          I am an 2023 Cs undergrad pursuing Masters in Compter Application, 
-          passionate about embracing challenges and acquiring new skills. 
-          I thrive on connecting with individuals, sharing ideas, and fostering a 
-          culture of knowledge and positivity.
+            I am an 2023 Cs undergrad pursuing Masters in Compter Application,
+            passionate about embracing challenges and acquiring new skills.
+            I thrive on connecting with individuals, sharing ideas, and fostering a
+            culture of knowledge and positivity.
           </p>
           <div className="flex justify-center">
             <a
@@ -23,9 +23,10 @@ export default function About() {
               Hire Me
             </a>
             <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
+              href="https://drive.google.com/uc?export=download&id=1OYht_f7sEiUJRljG5FYwh-aQ-WvphgR4"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              Download Resume
             </a>
           </div>
         </div>

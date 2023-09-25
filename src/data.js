@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "ToDo-App",
+    subtitle: "React, Node and MySQL",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Created using ReactJs, interacts with database using RestAPI, also includes user-friendly validation. ",
+    image: "./todo-app.png",
+    link: "https://github.com/labanidas/ReactJs-Assignment/tree/master",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Face Recognition Attendance System",
+    subtitle: "Python and Flask",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "A system made using purely python tht detects and recognises face and marks their attendance.",
+    image: "./fras.png",
+    link: "https://github.com/labanidas/CMSA-SEM-6/tree/Face-Recognition-Attendance-System",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "ChatGPT Clone",
+    subtitle: "Flask",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "A ChatGPT clone that interacts with user queries created using FLASK",
+    image: "./chatgpt-clone.gif",
+    link: "https://github.com/labanidas/main.py/tree/ChatGPT-clone",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Moving Car",
+    subtitle: "HTML | CSS | JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "A car that appears to move on a track. Created using css animation.",
+    image: "./result.gif",
+    link: "https://github.com/labanidas/Web-Development/tree/moving-car",
   },
 ];
 
