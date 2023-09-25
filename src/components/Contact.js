@@ -45,7 +45,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-              Ashok Nagar, Ichapur <br />
+                Ashok Nagar, Ichapur <br />
                 West Bengal, PIN-743144
               </p>
             </div>
@@ -63,7 +63,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form
+        {/* <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
@@ -117,7 +117,23 @@ export default function Contact() {
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
-        </form>
+        </form> */}
+
+        <div className="flex justify-center items-center">
+          <div>
+            
+            Want to get in touch? Let's connect! 
+            <br />
+            <br />
+            <a
+              href="https://www.linkedin.com/in/labani-das/" target="_black"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              Connect with me on LinkedIn
+            </a>
+          </div>
+        </div>
+
       </div>
     </section>
   );
