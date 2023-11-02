@@ -13,9 +13,8 @@ export const ProductContainer = styled.div`
 
 export const ProductImage = styled.img`
   width: 200px;
+  object-fit: contain ;
   height: 200px;
-  fit: cover;
-  height: auto;
 `;
 
 export const ProductTitle = styled.h2`

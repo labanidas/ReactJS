@@ -9,11 +9,11 @@ const products = [
     },
     {
       id: 2,
-      title: 'Shoe for women',
+      title: 'Black Shoe for women',
       description: 'Description for Product 2',
-      price: 599.00,
+      price: 649.00,
       category: 'Women',
-      image: 'navy-blue-shoes.jpg',
+      image: 'black.jpg',
     },
     {
       id: 3,
@@ -38,6 +38,30 @@ const products = [
       price: 849.00,
       category: 'Men',
       image: 'men-formal1.jpg',
+    },
+    {
+      id: 6,
+      title: 'Men Pink Shoe',
+      description: 'Description for Product 2',
+      price: 899.00,
+      category: 'Men',
+      image: 'men-pink-shoe.jpg',
+    },
+    {
+      id: 7,
+      title: 'Coral Shoes',
+      description: 'Description for Product 2',
+      price: 549.00,
+      category: 'Women',
+      image: 'coral.jpg',
+    },
+    {
+      id: 8,
+      title: 'Gray Shoe',
+      description: 'Description for Product 2',
+      price: 349.00,
+      category: 'Women',
+      image: 'Gray.jpg',
     },
   ];
   

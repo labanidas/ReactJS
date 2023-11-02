@@ -19,21 +19,23 @@ const FilterSort = ({ handleFilter, handleSort }) => {
     <FilterSortContainer>
       <label>
         Filter by Category:
+        </label>
         <select value={category} onChange={handleCategoryChange}>
           <option value="">All Categories</option>
           <option value="Men">Shoes for Men</option>
           <option value="Women">shoes for Women</option>
           {/* --add more category options-- */}
         </select>
-      </label>
+      
       <label>
-        Sort by Price:
+               Sort by Price:
+        </label>
         <select value={sort} onChange={handleSortChange}>
           <option value="">Default</option>
           <option value="low-to-high">Low to High</option>
           <option value="high-to-low">High to Low</option>
         </select>
-      </label>
+      
     </FilterSortContainer>
   );
 };
