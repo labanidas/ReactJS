@@ -36,7 +36,7 @@ function App() {
   return (
     <AppContainer>
       <AppHeader>
-        <AppTitle>Product Listing</AppTitle>
+        <AppTitle>Shoe Online Store</AppTitle>
         <FilterSort handleFilter={handleFilter} handleSort={handleSort} />
       </AppHeader>
       <MainContainer>
