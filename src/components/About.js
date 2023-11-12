@@ -23,7 +23,7 @@ export default function About() {
               Hire Me
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=1DbY4962fmGv3Rby4_TIp-z5CAkaLJZRv"
+              href="https://drive.google.com/uc?export=download&id=1n0kX-TWwleDoCab48InVtPE-tyjjpHU2"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
               Download Resume
